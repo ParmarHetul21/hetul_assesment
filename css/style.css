@@ -1,0 +1,187 @@
+/* MAIN CSS */
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+@font-face {
+	font-family: "MyWebFont";
+	src: url("../fonts/fontawesome-webfont.woff") format("woff"),
+		url("../fonts/fontawesome-webfont.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "MyWebFont1";
+	src: url("../fonts/glyphicons-halflings-regular.woff") format("woff"),
+		url("../fonts/glyphicons-halflings-regular.woff2") format("woff2");
+}
+
+.logo {
+	font-family: "MyWebFont";
+	display: flex;
+	overflow-x: hidden;
+	font-size: 24px;
+	color: white;
+	margin-top: 30px;
+	cursor: pointer;
+	font-weight: bold;
+}
+.logo_color {
+	color: rgb(103, 213, 181);
+}
+.header {
+	background-image: url("../img/about2.jpg");
+	filter: grayscale(50%);
+	height: 650px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 80px;
+}
+
+.header_title_position {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 600px;
+}
+.header-title {
+	font-size: 24px;
+	list-style: none;
+	display: flex;
+	gap: 30px;
+	justify-items: center;
+	color: white;
+}
+.header_content {
+	color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: 28px;
+	font-stretch: expanded;
+	gap: 10px;
+	margin-top: 120px;
+}
+.strecthed-font {
+	font-size: 39px;
+	margin: 0;
+}
+.font-big {
+	font-size: 62px;
+	margin: 0;
+}
+.small_header {
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 12px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: -70px;
+}
+ul li:hover {
+	cursor: pointer;
+	color: rgb(103, 213, 181);
+}
+.small_header .big_title {
+	margin-top: 0;
+}
+
+.btn-btn-white {
+	font-size: 14px;
+	height: 36px;
+	width: 170px;
+	background-color: #ffffff;
+	color: #000;
+	border: none;
+	transition: transform 0.2s; /* Animation */
+	margin-top: -60px;
+	cursor: pointer;
+}
+
+.btn-btn-white:hover {
+	background-color: rgb(103, 213, 181);
+	color: #ffffff;
+	transform: scale(1.6);
+}
+
+.rounded-border-circle {
+	border: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+}
+
+.rounded-border-circle button {
+	background-color: transparent;
+	padding: 5px;
+	border: 2px solid white;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.rounded-border-circle button:hover {
+	background-color: #ffffff;
+}
+
+.section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.section .section_title {
+	font-size: 32px;
+	margin-top: 70px;
+	letter-spacing: 10px;
+}
+
+.section_descrpition p {
+	margin-top: 40px;
+	font-size: 18px;
+	text-align: center;
+	margin-left: 400px;
+	margin-right: 400px;
+}
+
+.development_skills {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.bg_circle {
+	margin-top: 60px;
+	padding: 5px;
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.bg_circle .fas {
+	font-size: 34px;
+}
+
+.skills_developed {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 60px;
+	margin-left: 220px;
+	margin-right: 220px;
+}
+
+.skills_developed p {
+	text-align: center;
+}
