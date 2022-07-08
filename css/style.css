@@ -185,3 +185,23 @@ ul li:hover {
 .skills_developed p {
 	text-align: center;
 }
+
+.development_skills .bg_circle:hover {
+	background-color: rgb(103, 213, 181);
+	border: none;
+}
+
+.development_skills h3:hover {
+	color: rgb(103, 213, 181);
+}
+
+.development_skills .cover i:hover {
+	color: #ffffff;
+}
+
+.cover {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
